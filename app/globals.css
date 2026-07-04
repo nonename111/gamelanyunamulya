@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 36 38% 94%;
+  --foreground: 27 28% 14%;
+  --card: 36 38% 96%;
+  --card-foreground: 27 28% 14%;
+  --border: 35 20% 78%;
+  --primary: 27 39% 39%;
+  --primary-foreground: 34 100% 97%;
+  --secondary: 42 57% 51%;
+  --secondary-foreground: 27 28% 14%;
+  --muted: 34 25% 90%;
+  --muted-foreground: 28 16% 35%;
+  --accent: 111 17% 36%;
+  --accent-foreground: 35 40% 97%;
+}
+
+.dark {
+  --background: 24 20% 11%;
+  --foreground: 35 33% 92%;
+  --card: 24 18% 15%;
+  --card-foreground: 35 33% 92%;
+  --border: 26 13% 25%;
+  --primary: 36 41% 58%;
+  --primary-foreground: 27 28% 14%;
+  --secondary: 42 57% 51%;
+  --secondary-foreground: 27 28% 14%;
+  --muted: 24 16% 18%;
+  --muted-foreground: 34 20% 70%;
+  --accent: 111 17% 48%;
+  --accent-foreground: 35 33% 92%;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+body {
+  background:
+    radial-gradient(circle at top left, rgba(200, 155, 60, 0.18), transparent 32%),
+    radial-gradient(circle at top right, rgba(79, 109, 74, 0.16), transparent 28%),
+    hsl(var(--background));
+  color: hsl(var(--foreground));
+  font-feature-settings: "liga" 1, "kern" 1;
+  overflow-x: hidden;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background-image: url("/motif-jawa.svg");
+  background-size: 280px;
+  opacity: 0.18;
+  pointer-events: none;
+  z-index: -1;
+  mix-blend-mode: multiply;
+}
+
+::selection {
+  background: rgba(200, 155, 60, 0.35);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+}
+
+@layer utilities {
+  .container-shell {
+    @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .glass-panel {
+    @apply border border-white/20 bg-white/60 backdrop-blur-xl dark:bg-black/20;
+  }
+
+  .section-spacing {
+    @apply py-20 sm:py-24 lg:py-28;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}

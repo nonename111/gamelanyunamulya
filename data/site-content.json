@@ -1,0 +1,518 @@
+{
+  "brand": {
+    "name": "Yuna Mulya Gamelan",
+    "tagline": {
+      "id": "Sanggar Gamelan Kayu Nangka yang merawat kerajinan, pembelajaran, dan pelestarian budaya Jawa di Gunungkidul.",
+      "en": "A jackfruit-wood gamelan studio preserving craftsmanship, learning, and Javanese cultural heritage in Gunungkidul."
+    }
+  },
+  "navigation": [
+    {
+      "href": "/#hero",
+      "route": "/",
+      "label": { "id": "Beranda", "en": "Home" }
+    },
+    {
+      "href": "/#tentang",
+      "route": "/",
+      "label": { "id": "Cerita Sanggar", "en": "Studio Story" }
+    },
+    {
+      "href": "/#sejarah",
+      "route": "/",
+      "label": { "id": "Sejarah", "en": "History" }
+    },
+    {
+      "href": "/#dokumentasi",
+      "route": "/",
+      "label": { "id": "Dokumentasi", "en": "Documentation" }
+    },
+    {
+      "href": "/#kayu-nangka",
+      "route": "/",
+      "label": { "id": "Kayu Nangka", "en": "Jackfruit Wood" }
+    },
+    {
+      "href": "/kontak",
+      "route": "/kontak",
+      "label": { "id": "Kontak", "en": "Contact" }
+    }
+  ],
+  "museumRooms": [
+    {
+      "title": { "id": "Ruang Sanggar", "en": "Studio Room" },
+      "description": {
+        "id": "Mengenal filosofi, visi, dan karakter Yuna Mulya Gamelan.",
+        "en": "Discover the philosophy, vision, and identity of Yuna Mulya Gamelan."
+      },
+      "href": "/tentang-sanggar"
+    },
+    {
+      "title": { "id": "Ruang Sejarah", "en": "History Room" },
+      "description": {
+        "id": "Menelusuri tonggak penting perjalanan pelestarian gamelan kayu nangka.",
+        "en": "Trace the milestones of preserving jackfruit-wood gamelan."
+      },
+      "href": "/sejarah"
+    },
+    {
+      "title": { "id": "Ruang Instrumen", "en": "Instrument Room" },
+      "description": {
+        "id": "Jelajahi karakter, fungsi, dan audio tiap instrumen.",
+        "en": "Explore the character, function, and audio preview of each instrument."
+      },
+      "href": "/mengenal-gamelan"
+    },
+    {
+      "title": { "id": "Ruang Kriya", "en": "Craft Room" },
+      "description": {
+        "id": "Memahami proses pembuatan dari pemilihan kayu hingga penyeteman nada.",
+        "en": "Understand the crafting journey from wood selection to tuning."
+      },
+      "href": "/proses-pembuatan"
+    }
+  ],
+  "hero": {
+    "eyebrow": {
+      "id": "Sanggar Gamelan Kayu Nangka",
+      "en": "Jackfruit-Wood Gamelan Studio"
+    },
+    "title": {
+      "id": "Sanggar Yuna Mulya, ruang pelestarian Gamelan Kayu Nangka yang tumbuh dari pengalaman dan ketekunan",
+      "en": "Yuna Mulya Studio, a place where jackfruit-wood gamelan lives through experience and dedication"
+    },
+    "subtitle": {
+      "id": "Sanggar Gamelan Kayu Nangka Yuna Mulya menjadi tempat pembuatan gamelan, pusat pembelajaran, pelatihan, pertunjukan, dan pelestarian budaya Jawa bagi masyarakat serta generasi muda di Gunungkidul.",
+      "en": "Sanggar Gamelan Kayu Nangka Yuna Mulya serves as a space for crafting gamelan, learning, training, performances, and preserving Javanese culture for the wider community and younger generations in Gunungkidul."
+    },
+    "primaryCta": {
+      "label": { "id": "Baca Cerita", "en": "Read the Story" },
+      "href": "/#tentang",
+      "variant": "default"
+    },
+    "secondaryCta": {
+      "label": { "id": "Tentang Kayu Nangka", "en": "About the Wood" },
+      "href": "/#kayu-nangka",
+      "variant": "outline"
+    }
+  },
+  "about": {
+    "sectionLabel": { "id": "Tentang Sanggar", "en": "About the Studio" },
+    "title": {
+      "id": "Ruang pelestarian budaya yang merawat Gamelan Kayu Nangka melalui karya dan pembelajaran",
+      "en": "A cultural preservation space that nurtures jackfruit-wood gamelan through craft and learning"
+    },
+    "description": {
+      "id": "Sanggar Gamelan Kayu Nangka Yuna Mulya merupakan sanggar seni yang berfokus pada pelestarian gamelan berbahan kayu nangka. Sanggar ini tidak hanya menjadi tempat pembuatan gamelan, tetapi juga menjadi pusat pembelajaran, pelatihan, pertunjukan, dan pelestarian budaya Jawa bagi masyarakat serta generasi muda.",
+      "en": "Sanggar Gamelan Kayu Nangka Yuna Mulya is an arts studio focused on preserving gamelan crafted from jackfruit wood. It is not only a place for making instruments, but also a center for learning, training, performance, and the preservation of Javanese culture."
+    },
+    "cards": [
+      {
+        "title": { "id": "Pelestarian Budaya", "en": "Cultural Preservation" },
+        "description": {
+          "id": "Sanggar hadir untuk menjaga Seni Tradisional Jawa melalui Gamelan Kayu Nangka agar tetap dikenal, dimainkan, dan diwariskan kepada generasi berikutnya.",
+          "en": "The studio exists to preserve traditional Javanese art through jackfruit-wood gamelan so it can remain known, played, and passed on to the next generation."
+        }
+      },
+      {
+        "title": { "id": "Belajar untuk Semua", "en": "Learning for Everyone" },
+        "description": {
+          "id": "Peserta latihan berasal dari anak-anak, pelajar SMP, pelajar SMA, hingga masyarakat umum. Seluruh pembelajaran dipandu langsung oleh pendiri sanggar sesuai kebutuhan peserta.",
+          "en": "Participants range from children and students to members of the wider community. Every learning session is guided directly by the studio founder according to the learners' needs."
+        }
+      },
+      {
+        "title": { "id": "Dibuat Secara Mandiri", "en": "Made Independently" },
+        "description": {
+          "id": "Seluruh proses pembuatan gamelan dilakukan secara mandiri berdasarkan pengalaman bertahun-tahun, sehingga menghasilkan instrumen dengan karakter suara khas tanpa meninggalkan nilai budaya tradisional.",
+          "en": "The entire gamelan-making process is carried out independently through years of experience, producing instruments with a distinctive character while preserving traditional cultural values."
+        }
+      }
+    ]
+  },
+  "history": {
+    "sectionLabel": { "id": "Sejarah", "en": "History" },
+    "title": {
+      "id": "Perjalanan Sanggar Yuna Mulya dari satu perangkat percobaan hingga menjadi pusat pelestarian budaya",
+      "en": "The journey of Yuna Mulya from a single prototype set into a center for cultural preservation"
+    },
+    "description": {
+      "id": "Perjalanan Sanggar Gamelan Kayu Nangka Yuna Mulya berawal dari keinginan pendirinya untuk menciptakan seperangkat gamelan kayu dengan kualitas suara yang baik. Perkembangannya tidak terjadi secara instan, melainkan melalui waktu panjang, percobaan, pengalaman, dan penyempurnaan yang dilakukan terus-menerus.",
+      "en": "The story of Sanggar Gamelan Kayu Nangka Yuna Mulya began with the founder's desire to create a wooden gamelan set with strong sound quality. Its growth was not instant, but built through time, experimentation, experience, and continuous refinement."
+    },
+    "timeline": [
+      {
+        "year": "2014",
+        "title": { "id": "Awal Percobaan", "en": "The First Experiment" },
+        "description": {
+          "id": "Pada awalnya hanya dibuat satu perangkat gamelan kayu sebagai percobaan. Dari perangkat pertama inilah pendiri sanggar mulai menilai kualitas suara, bentuk, dan karakter laras yang paling sesuai.",
+          "en": "At first, only one wooden gamelan set was made as an experiment. From this first set, the founder began to evaluate the sound quality, form, and tuning character that felt most suitable."
+        }
+      },
+      {
+        "year": "Tahap Berikutnya",
+        "title": { "id": "Perangkat Pertama Menjadi Standar", "en": "The First Set Became the Standard" },
+        "description": {
+          "id": "Setelah perangkat pertama dirasa berhasil, perangkat tersebut dijadikan standar untuk membuat perangkat-perangkat berikutnya. Dari sini proses pembuatan tidak lagi sekadar mencoba, tetapi mulai menjadi dasar kerja yang lebih terarah dan konsisten.",
+          "en": "Once the first set was considered successful, it became the standard for creating the next sets. From that point, the process was no longer just experimentation, but a more directed and consistent foundation for the work."
+        }
+      },
+      {
+        "year": "Berkembang Bertahap",
+        "title": { "id": "Instrumen Bertambah Sedikit demi Sedikit", "en": "The Instruments Grew Gradually" },
+        "description": {
+          "id": "Seiring berjalannya waktu, jumlah instrumen terus bertambah sedikit demi sedikit hingga akhirnya memiliki sekitar lima belas perangkat utama dan puluhan instrumen pendukung. Pertumbuhan ini menunjukkan bahwa Sanggar Yuna Mulya berkembang dari ketekunan, bukan dari proses yang tergesa-gesa.",
+          "en": "Over time, the number of instruments gradually increased until the studio had around fifteen main sets and dozens of supporting instruments. This growth shows that Yuna Mulya developed through persistence rather than haste."
+        }
+      },
+      {
+        "year": "Hingga Kini",
+        "title": { "id": "Pengalaman Menjadi Fondasi", "en": "Experience Became the Foundation" },
+        "description": {
+          "id": "Semua proses tersebut berlangsung dalam waktu yang panjang, bukan dalam hitungan hari atau bulan. Setiap penyempurnaan lahir dari pengalaman, percobaan, dan ketelitian yang terus dijaga hingga Sanggar Yuna Mulya dikenal sebagai ruang pelestarian budaya sekaligus pembelajaran gamelan kayu nangka.",
+          "en": "All of this happened over a long period, not in a matter of days or months. Each refinement grew from experience, experimentation, and care, shaping Yuna Mulya into both a cultural preservation space and a place for learning jackfruit-wood gamelan."
+        }
+      }
+    ]
+  },
+  "instruments": {
+    "sectionLabel": { "id": "Mengenal Gamelan", "en": "Meet the Instruments" },
+    "title": {
+      "id": "Setiap instrumen menyimpan warna bunyi, fungsi, dan cerita yang berbeda",
+      "en": "Each instrument holds a distinct sound, function, and story"
+    },
+    "description": {
+      "id": "Gunakan pencarian dan filter untuk menemukan instrumen, membaca detailnya, lalu dengarkan contoh ambience yang nanti bisa diganti audio asli dari CMS.",
+      "en": "Use search and filters to explore the instruments, read detailed notes, and listen to an ambience preview that can later be replaced with authentic CMS-managed audio."
+    },
+    "filters": [
+      { "id": "Semua", "en": "All" },
+      { "id": "Nature", "en": "Nature" },
+      { "id": "Food", "en": "Food" },
+      { "id": "Culture", "en": "Culture" }
+    ],
+    "items": [
+      {
+        "name": { "id": "Saron Nangka", "en": "Saron Nangka" },
+        "category": "culture",
+        "family": { "id": "Balungan", "en": "Core Melody" },
+        "function": {
+          "id": "Membawa melodi utama dengan karakter bunyi hangat dan padat.",
+          "en": "Carries the core melody with a warm and dense tone."
+        },
+        "description": {
+          "id": "Bilahan kayu nangka yang disetel presisi untuk menjaga kerangka melodi pertunjukan.",
+          "en": "Jackfruit-wood bars tuned precisely to preserve the melodic framework of the performance."
+        },
+        "detail": {
+          "id": "Instrumen ini menjadi titik orientasi bagi pemain lain sehingga stabilitas nadanya sangat dijaga.",
+          "en": "This instrument acts as an anchor for other players, so its tonal stability is carefully maintained."
+        },
+        "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+        "tone": "C4"
+      },
+      {
+        "name": { "id": "Bonang Laras", "en": "Bonang Laras" },
+        "category": "nature",
+        "family": { "id": "Penuntun", "en": "Guiding Layer" },
+        "function": {
+          "id": "Memberi aksen, dialog ritmis, dan penanda perpindahan frase.",
+          "en": "Adds accents, rhythmic dialogue, and phrase transitions."
+        },
+        "description": {
+          "id": "Permukaan resonan kayu menghasilkan bunyi lembut namun jelas di ruang pertunjukan.",
+          "en": "The resonant wooden surface creates a soft yet articulate sound in performance spaces."
+        },
+        "detail": {
+          "id": "Bonang kayu nangka memiliki tekstur suara yang lebih organik sehingga sering dipakai untuk suasana intim.",
+          "en": "Jackfruit-wood bonang offers a more organic timbre, making it ideal for intimate atmospheres."
+        },
+        "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+        "tone": "D4"
+      },
+      {
+        "name": { "id": "Kenong Wicara", "en": "Kenong Wicara" },
+        "category": "food",
+        "family": { "id": "Struktur", "en": "Structural Layer" },
+        "function": {
+          "id": "Menandai pembagian kalimat musikal dan memberi napas pada komposisi.",
+          "en": "Marks musical phrases and gives breath to the composition."
+        },
+        "description": {
+          "id": "Bentuk resonatornya dirancang agar bunyi terpantul lembut namun tetap tegas.",
+          "en": "Its resonator shape is designed for a soft yet assertive reflection of sound."
+        },
+        "detail": {
+          "id": "Dalam pertunjukan ceremonial, kenong menjadi penyangga tempo sekaligus aksen emosional.",
+          "en": "In ceremonial performances, kenong supports tempo while adding emotional emphasis."
+        },
+        "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+        "tone": "E4"
+      },
+      {
+        "name": { "id": "Gong Pungkasan", "en": "Gong Pungkasan" },
+        "category": "culture",
+        "family": { "id": "Penutup", "en": "Closing Layer" },
+        "function": {
+          "id": "Menjadi penanda puncak dan penutup siklus musikal.",
+          "en": "Marks the climax and closure of a musical cycle."
+        },
+        "description": {
+          "id": "Meski berbahan kayu, karakter resonansinya tetap memberi rasa agung dan dalam.",
+          "en": "Though wooden, its resonance still delivers a majestic and deep presence."
+        },
+        "detail": {
+          "id": "Pembuatan gong kayu memerlukan kontrol ketebalan dan rongga resonansi yang sangat teliti.",
+          "en": "Crafting a wooden gong demands precise control of thickness and resonance cavities."
+        },
+        "audioSrc": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+        "tone": "G3"
+      }
+    ]
+  },
+  "process": {
+    "sectionLabel": { "id": "Kayu Nangka", "en": "Jackfruit Wood" },
+    "title": {
+      "id": "Mengapa kayu nangka dipilih dan bagaimana proses pembuatannya dijaga",
+      "en": "Why jackfruit wood was chosen and how the making process is carefully preserved"
+    },
+    "description": {
+      "id": "Kayu nangka dipilih karena memiliki karakter yang baik untuk menghasilkan resonansi suara gamelan. Bagi Sanggar Yuna Mulya, pemilihan bahan ini juga menjadi simbol pengingat sejarah Gunungkidul, khususnya kisah Hutan Nongkodoyong yang terkait dengan cikal bakal wilayah ini.",
+      "en": "Jackfruit wood is chosen because it offers strong resonance for gamelan sound. For Yuna Mulya, this material also serves as a symbol that recalls the history of Gunungkidul, especially the story of Hutan Nongkodoyong."
+    },
+    "steps": [
+      {
+        "step": "01",
+        "title": { "id": "Memilih Kayu yang Tepat", "en": "Selecting the Right Wood" },
+        "description": {
+          "id": "Tahap pertama dimulai dari memilih pohon nangka yang berkualitas. Tidak semua bagian kayu dapat digunakan karena yang dibutuhkan adalah serat lurus dan pori-pori yang baik agar suara yang dihasilkan tetap jernih.",
+          "en": "The first step is selecting quality jackfruit trees. Not every part of the wood can be used, because straight grain and good pores are needed to produce a clear sound."
+        }
+      },
+      {
+        "step": "02",
+        "title": { "id": "Membentuk dan Menentukan Laras", "en": "Shaping and Setting the Tuning" },
+        "description": {
+          "id": "Setelah kayu diseleksi dan dikeringkan, bilah gamelan dibentuk satu per satu lalu ditentukan ukurannya. Penyetelan nada dilakukan secara manual menggunakan pengalaman dan pendengaran, hingga perangkat pertama dapat dijadikan standar laras untuk instrumen berikutnya.",
+          "en": "After the wood is selected and dried, each gamelan bar is shaped and carefully measured. The tuning is done manually through experience and listening, until the first set can serve as the tuning standard for later instruments."
+        }
+      },
+      {
+        "step": "03",
+        "title": { "id": "Makna dan Penyempurnaan", "en": "Meaning and Refinement" },
+        "description": {
+          "id": "Suara setiap instrumen terus disempurnakan hingga memiliki karakter yang sama dan selaras. Dalam proses ini, kayu nangka bukan hanya bahan utama, tetapi juga simbol untuk mengingat sejarah daerah sendiri serta menjaga hubungan antara bunyi, kerajinan gamelan, dan identitas budaya Gunungkidul.",
+          "en": "Each instrument's sound is refined until it shares the same character and harmony. In this process, jackfruit wood is not only a primary material, but also a symbol that connects sound, craftsmanship, and the cultural identity of Gunungkidul."
+        }
+      }
+    ]
+  },
+  "gallery": {
+    "sectionLabel": { "id": "Galeri", "en": "Gallery" },
+    "title": {
+      "id": "Fragmen pertunjukan, workshop, dan proses kriya dalam susunan masonry",
+      "en": "Fragments of performances, workshops, and craftsmanship in a masonry gallery"
+    },
+    "description": {
+      "id": "Klik setiap panel untuk membuka lightbox dan menyelami suasana museum digital dengan lebih fokus.",
+      "en": "Click each panel to open a lightbox and experience the digital museum more closely."
+    },
+    "items": [
+      {
+        "title": { "id": "Panggung Senja", "en": "Twilight Performance" },
+        "category": "Pertunjukan",
+        "caption": {
+          "id": "Pementasan dengan pencahayaan hangat dan atmosfer meditatif.",
+          "en": "A performance with warm lighting and a meditative atmosphere."
+        },
+        "palette": "from-amber-300 via-amber-600 to-stone-900"
+      },
+      {
+        "title": { "id": "Ruang Workshop", "en": "Workshop Space" },
+        "category": "Workshop",
+        "caption": {
+          "id": "Sesi belajar langsung bagi pelajar dan komunitas.",
+          "en": "Hands-on learning sessions for students and communities."
+        },
+        "palette": "from-lime-200 via-emerald-500 to-emerald-950"
+      },
+      {
+        "title": { "id": "Ukiran Detail", "en": "Carving Detail" },
+        "category": "Pembuatan",
+        "caption": {
+          "id": "Dekat dengan tekstur ukiran halus pada rangka instrumen.",
+          "en": "A close look at the intricate carved texture on the instrument frame."
+        },
+        "palette": "from-yellow-100 via-orange-400 to-amber-900"
+      },
+      {
+        "title": { "id": "Festival Nusantara", "en": "Archipelago Festival" },
+        "category": "Festival",
+        "caption": {
+          "id": "Kehadiran sanggar dalam perayaan budaya lintas generasi.",
+          "en": "The studio joining intergenerational cultural celebrations."
+        },
+        "palette": "from-rose-200 via-rose-500 to-red-900"
+      },
+      {
+        "title": { "id": "Arsip Dokumentasi", "en": "Documentation Archive" },
+        "category": "Dokumentasi",
+        "caption": {
+          "id": "Foto, catatan, dan arsip visual yang merawat memori kolektif.",
+          "en": "Photos, notes, and visual archives that preserve collective memory."
+        },
+        "palette": "from-slate-200 via-slate-500 to-slate-900"
+      },
+      {
+        "title": { "id": "Resonansi Ruang", "en": "Resonant Hall" },
+        "category": "Pertunjukan",
+        "caption": {
+          "id": "Eksplorasi tata ruang pertunjukan modern bernuansa tradisional.",
+          "en": "An exploration of a modern performance hall with traditional nuances."
+        },
+        "palette": "from-stone-200 via-stone-500 to-zinc-950"
+      }
+    ]
+  },
+  "articles": {
+    "sectionLabel": { "id": "Artikel Budaya", "en": "Cultural Articles" },
+    "title": {
+      "id": "Cerita, refleksi, dan pengetahuan yang memperluas cara kita mendengar gamelan",
+      "en": "Stories, reflections, and knowledge that expand how we listen to gamelan"
+    },
+    "description": {
+      "id": "Layout blog modern ini disiapkan agar mudah dihubungkan ke CMS dan diperkaya artikel baru secara rutin.",
+      "en": "This modern blog layout is ready to connect with a CMS and grow with new articles over time."
+    },
+    "featured": {
+      "slug": "makna-kayu-nangka",
+      "title": {
+        "id": "Mengapa Kayu Nangka Menjadi Jiwa dalam Kerajinan Gamelan",
+        "en": "Why Jackfruit Wood Becomes the Soul of Gamelan Craft"
+      },
+      "category": { "id": "Material", "en": "Material" },
+      "excerpt": {
+        "id": "Menelusuri relasi antara serat kayu, warna bunyi, dan filosofi alam dalam tradisi gamelan.",
+        "en": "Tracing the relationship between wood grain, timbre, and the philosophy of nature in gamelan tradition."
+      },
+      "readTime": "6 min"
+    },
+    "items": [
+      {
+        "slug": "arsitektur-bunyi-jawa",
+        "title": {
+          "id": "Arsitektur Bunyi Jawa dalam Formasi Ansambel Kayu",
+          "en": "Javanese Sound Architecture in Wooden Ensemble Formations"
+        },
+        "category": { "id": "Musikologi", "en": "Musicology" },
+        "excerpt": {
+          "id": "Bagaimana struktur lapisan bunyi menciptakan rasa tenang namun megah dalam pertunjukan.",
+          "en": "How layered sound structures create a calm yet majestic performance experience."
+        },
+        "readTime": "5 min"
+      },
+      {
+        "slug": "regenerasi-seniman",
+        "title": {
+          "id": "Regenerasi Seniman Tradisi di Era Digital",
+          "en": "Regenerating Traditional Artists in the Digital Era"
+        },
+        "category": { "id": "Komunitas", "en": "Community" },
+        "excerpt": {
+          "id": "Peran workshop, dokumentasi, dan ruang digital untuk menjaga kesinambungan pengetahuan.",
+          "en": "The role of workshops, documentation, and digital spaces in sustaining cultural knowledge."
+        },
+        "readTime": "4 min"
+      },
+      {
+        "slug": "motif-ukiran",
+        "title": {
+          "id": "Motif Ukiran Jawa sebagai Narasi Visual pada Gamelan",
+          "en": "Javanese Carving Motifs as Visual Narratives on Gamelan"
+        },
+        "category": { "id": "Desain", "en": "Design" },
+        "excerpt": {
+          "id": "Simbol-simbol halus yang menghadirkan kemewahan tradisional tanpa kehilangan ketenangan.",
+          "en": "Subtle symbols that create traditional luxury without losing serenity."
+        },
+        "readTime": "7 min"
+      }
+    ]
+  },
+  "events": {
+    "sectionLabel": { "id": "Kegiatan", "en": "Events" },
+    "title": {
+      "id": "Program yang menghidupkan sanggar sebagai ruang belajar dan pertunjukan",
+      "en": "Programs that keep the studio alive as a learning and performance space"
+    },
+    "description": {
+      "id": "Kartu kegiatan dibuat fleksibel untuk terhubung ke data jadwal Supabase atau Sanity di tahap berikutnya.",
+      "en": "These event cards are designed to connect easily with Supabase or Sanity schedules later."
+    },
+    "items": [
+      {
+        "title": { "id": "Workshop Palu dan Laras", "en": "Hammer and Scale Workshop" },
+        "type": { "id": "Workshop", "en": "Workshop" },
+        "date": "12 Agustus 2026",
+        "location": { "id": "Yogyakarta", "en": "Yogyakarta" },
+        "description": {
+          "id": "Belajar memahami relasi material, bentuk, dan warna bunyi secara langsung bersama pengrajin.",
+          "en": "Learn the relationship between material, form, and timbre directly with craftspeople."
+        }
+      },
+      {
+        "title": { "id": "Pentas Malam Museum", "en": "Museum Night Performance" },
+        "type": { "id": "Pentas", "en": "Performance" },
+        "date": "28 Agustus 2026",
+        "location": { "id": "Pendopo Yuna Mulya", "en": "Yuna Mulya Pavilion" },
+        "description": {
+          "id": "Pertunjukan intim dengan tata cahaya hangat dan narasi sejarah antar komposisi.",
+          "en": "An intimate performance with warm lighting and historical narration between compositions."
+        }
+      },
+      {
+        "title": { "id": "Festival Bunyi Nusantara", "en": "Archipelago Sound Festival" },
+        "type": { "id": "Festival", "en": "Festival" },
+        "date": "10 September 2026",
+        "location": { "id": "Solo", "en": "Solo" },
+        "description": {
+          "id": "Kolaborasi lintas komunitas untuk mempertemukan ragam tradisi bunyi dari berbagai daerah.",
+          "en": "A cross-community collaboration showcasing sound traditions from many regions."
+        }
+      }
+    ]
+  },
+  "contact": {
+    "sectionLabel": { "id": "Kontak", "en": "Contact" },
+    "title": {
+      "id": "Hubungi Yuna Mulya Gamelan dan temukan lokasinya di Gunung Kidul",
+      "en": "Contact Yuna Mulya Gamelan and find its location in Gunung Kidul"
+    },
+    "description": {
+      "id": "Halaman ini memudahkan pengunjung untuk melihat lokasi sanggar, menghubungi pengelola, dan mengetahui titik tempat sanggar ini tumbuh secara sederhana.",
+      "en": "This page helps visitors find the studio, contact the organizer, and see the place where the studio simply grew."
+    },
+    "address": {
+      "id": "Sumber, Candirejo, Semin, Gunungkidul, Daerah Istimewa Yogyakarta 55854",
+      "en": "Sumber, Candirejo, Semin, Gunungkidul, Special Region of Yogyakarta 55854"
+    },
+    "mapQuery": "5Q76+C92, Unnamed Road, Padas, Candi Rejo, Kec. Semin, Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta 55854",
+    "channels": [
+      {
+        "label": "Instagram",
+        "value": "@yuna_mulya",
+        "href": "https://instagram.com/yuna_mulya"
+      },
+      {
+        "label": "YouTube",
+        "value": "Yuna Mulya Production",
+        "href": "https://youtube.com/@yunamulyaproduction?si=-H5hBmwSlPVXi0F7"
+      },
+      {
+        "label": "Google Maps",
+        "value": "5Q76+C92, Semin, Gunungkidul",
+        "href": "https://www.google.com/maps/search/?api=1&query=5Q76%2BC92%2C%20Unnamed%20Road%2C%20Padas%2C%20Candi%20Rejo%2C%20Kec.%20Semin%2C%20Kabupaten%20Gunungkidul%2C%20Daerah%20Istimewa%20Yogyakarta%2055854"
+      }
+    ]
+  }
+}
