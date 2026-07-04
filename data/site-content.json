@@ -499,6 +499,11 @@
     "mapQuery": "5Q76+C92, Unnamed Road, Padas, Candi Rejo, Kec. Semin, Kabupaten Gunungkidul, Daerah Istimewa Yogyakarta 55854",
     "channels": [
       {
+        "label": "WhatsApp",
+        "value": "0857 0021 5651",
+        "href": "https://wa.me/6285700215651"
+      },
+      {
         "label": "Instagram",
         "value": "@yuna_mulya",
         "href": "https://instagram.com/yuna_mulya"

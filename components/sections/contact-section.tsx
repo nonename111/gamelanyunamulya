@@ -75,8 +75,8 @@ export function ContactSection({
           </h3>
           <p className="mt-4 text-sm leading-8 text-muted-foreground sm:text-base">
             {language === "id"
-              ? "Karena website ini tidak menggunakan database, bagian kontak dibuat sederhana tanpa formulir. Pengunjung bisa langsung memakai Instagram, YouTube, atau membuka Google Maps yang tersedia."
-              : "Because this website does not use a database, the contact section stays simple without a form. Visitors can directly use the available Instagram, YouTube, or Google Maps links."}
+              ? "Karena website ini tidak menggunakan database, bagian kontak dibuat sederhana tanpa formulir. Pengunjung bisa langsung memakai WhatsApp, Instagram, YouTube, atau membuka Google Maps yang tersedia."
+              : "Because this website does not use a database, the contact section stays simple without a form. Visitors can directly use the available WhatsApp, Instagram, YouTube, or Google Maps links."}
           </p>
           <div className="mt-6 rounded-[1.5rem] border border-primary/10 bg-background/90 p-5">
             <p className="text-xs uppercase tracking-[0.18em] text-primary sm:tracking-[0.28em]">
