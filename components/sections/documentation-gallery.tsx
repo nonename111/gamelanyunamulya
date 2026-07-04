@@ -97,8 +97,8 @@ const documentationItems = [
       en: "The maker and members of Yuna Mulya Studio"
     },
     description: {
-      id: "Foto ini menampilkan pembuat gamelan bersama anggota Sanggar Yuna Mulya. Dokumentasi ini memperlihatkan bahwa sanggar tumbuh dari kebersamaan, pembelajaran, dan semangat pelestarian budaya di tengah masyarakat.",
-      en: "This photo shows the gamelan maker together with members of Sanggar Yuna Mulya. It reflects how the studio grows through togetherness, learning, and a shared commitment to cultural preservation."
+      id: "Foto ini menampilkan Hadi Mulyanto sebagai pemilik sekaligus pembuat gamelan bersama anggota Sanggar Yuna Mulya. Dokumentasi ini memperlihatkan bahwa sanggar tumbuh dari kebersamaan, pembelajaran, dan semangat pelestarian budaya di tengah masyarakat.",
+      en: "This photo shows Hadi Mulyanto as the owner and gamelan maker together with members of Sanggar Yuna Mulya. It reflects how the studio grows through togetherness, learning, and a shared commitment to cultural preservation."
     },
     size: "large"
   }
