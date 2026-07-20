@@ -10,13 +10,16 @@ import { Button } from "@/components/ui/button";
 export function PageHero({
   eyebrow,
   title,
-  description
+  description,
+  titleHref
 }: {
   eyebrow: LocalizedText;
   title: LocalizedText;
   description: LocalizedText;
+  titleHref?: string;
 }) {
   const { language } = useLanguage();
+  const titleText = pickText(title, language);
 
   return (
     <section className="relative overflow-hidden pb-12 pt-10">
@@ -27,9 +30,20 @@ export function PageHero({
           <p className="relative text-xs font-medium uppercase tracking-[0.18em] text-primary sm:text-sm sm:tracking-[0.28em]">
             {pickText(eyebrow, language)}
           </p>
-          <h1 className="relative mt-5 max-w-4xl font-serif text-3xl leading-tight text-balance sm:text-5xl lg:text-6xl">
-            {pickText(title, language)}
-          </h1>
+          {titleHref ? (
+            <Link
+              href={titleHref}
+              target="_blank"
+              rel="noreferrer"
+              className="relative mt-5 block max-w-4xl font-serif text-3xl leading-tight text-balance transition hover:text-secondary sm:text-5xl lg:text-6xl"
+            >
+              {titleText}
+            </Link>
+          ) : (
+            <h1 className="relative mt-5 max-w-4xl font-serif text-3xl leading-tight text-balance sm:text-5xl lg:text-6xl">
+              {titleText}
+            </h1>
+          )}
           <p className="relative mt-5 max-w-3xl text-sm leading-7 text-muted-foreground sm:text-lg">
             {pickText(description, language)}
           </p>
