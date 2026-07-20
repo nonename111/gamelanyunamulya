@@ -4,14 +4,20 @@ import { PageHero } from "@/components/sections/page-hero";
 import { SectionTitle } from "@/components/sections/section-title";
 
 export default function ContactPage() {
+  const whatsappChannel = siteContent.contact.channels.find(
+    (channel) => channel.label === "WhatsApp"
+  );
+
   return (
     <main className="pb-16">
       <PageHero
         eyebrow={siteContent.contact.sectionLabel}
         title={siteContent.contact.title}
         description={siteContent.contact.description}
+        titleHref={whatsappChannel?.href}
+        secondaryHref="#detail-kontak"
       />
-      <section className="section-spacing pt-0">
+      <section id="detail-kontak" className="section-spacing pt-0">
         <div className="container-shell">
           <SectionTitle
             eyebrow={siteContent.contact.sectionLabel}
