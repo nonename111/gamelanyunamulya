@@ -22,6 +22,8 @@ export function PageHero({
 }) {
   const { language } = useLanguage();
   const titleText = pickText(title, language);
+  const titleIsExternal = titleHref?.startsWith("http");
+  const secondaryIsHash = secondaryHref?.startsWith("#");
 
   return (
     <section className="relative overflow-hidden pb-12 pt-10">
@@ -32,15 +34,15 @@ export function PageHero({
           <p className="relative text-xs font-medium uppercase tracking-[0.18em] text-primary sm:text-sm sm:tracking-[0.28em]">
             {pickText(eyebrow, language)}
           </p>
-          {titleHref ? (
-            <Link
+          {titleHref && titleIsExternal ? (
+            <a
               href={titleHref}
               target="_blank"
               rel="noreferrer"
-              className="relative mt-5 block max-w-4xl font-serif text-3xl leading-tight text-balance transition hover:text-secondary sm:text-5xl lg:text-6xl"
+              className="relative mt-5 block max-w-4xl cursor-pointer font-serif text-3xl leading-tight text-balance transition hover:text-secondary sm:text-5xl lg:text-6xl"
             >
               {titleText}
-            </Link>
+            </a>
           ) : (
             <h1 className="relative mt-5 max-w-4xl font-serif text-3xl leading-tight text-balance sm:text-5xl lg:text-6xl">
               {titleText}
@@ -53,11 +55,19 @@ export function PageHero({
             <Button asChild className="w-full sm:w-auto">
               <Link href="/#hero">{language === "id" ? "Kembali ke Beranda" : "Back Home"}</Link>
             </Button>
-            <Button asChild variant="outline" className="w-full sm:w-auto">
-              <Link href={secondaryHref ?? "/kontak"}>
-                {language === "id" ? "Hubungi Sanggar" : "Contact the Studio"}
-              </Link>
-            </Button>
+            {secondaryHref && secondaryIsHash ? (
+              <Button asChild variant="outline" className="w-full sm:w-auto">
+                <a href={secondaryHref}>
+                  {language === "id" ? "Hubungi Sanggar" : "Contact the Studio"}
+                </a>
+              </Button>
+            ) : (
+              <Button asChild variant="outline" className="w-full sm:w-auto">
+                <Link href={secondaryHref ?? "/kontak"}>
+                  {language === "id" ? "Hubungi Sanggar" : "Contact the Studio"}
+                </Link>
+              </Button>
+            )}
           </div>
         </div>
       </div>
